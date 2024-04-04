@@ -1,14 +1,15 @@
 .skills-section {
+  margin-top: 220px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 220px;
+  margin-bottom: 288px;
 }
 .c {
   width: 80%;
-  height: 440px;
+  height: 580px;
   cursor: pointer;
   will-change: transform, opacity;
 }
@@ -20,13 +21,13 @@
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: white;
 }
 .front {
   width: 70%;
-  height: 440px;
+  height: 580px;
   position: absolute;
   background-color: #d3d1d1;
   color: black;
@@ -36,4 +37,28 @@
   align-items: center;
   height: 100%;
   justify-content: center;
+}
+.small-circle-red {
+  width: 14px;
+  height: 14px;
+  min-height: 14px;
+  min-width: 14px;
+  border-radius: 40px;
+  background-color: #ff5f56;
+}
+.small-circle-yellow {
+  width: 14px;
+  height: 14px;
+  min-height: 14px;
+  min-width: 14px;
+  border-radius: 40px;
+  background-color: #ffbd2e;
+}
+.small-circle-green {
+  width: 14px;
+  height: 14px;
+  min-height: 14px;
+  min-width: 14px;
+  border-radius: 40px;
+  background-color: #27c93f;
 }
