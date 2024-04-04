@@ -1,0 +1,88 @@
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.project-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
+.project-header-content {
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.project-content {
+  background-position: center;
+  height: 420px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.project-items {
+  background-color: rgba(116, 116, 116, 0.4);
+  backdrop-filter: saturate(120%) blur(20px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.project-items-h1 {
+  font-size: 24px;
+  color: white;
+  line-height: 36px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.project-items-p {
+  font-size: 18px;
+  line-height: 25.2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.project-line-container {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(10deg) skew(0deg);
+  transform-style: preserve-3d;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.project-line {
+  width: 12px;
+  height: 122px;
+  background-image: (linear, left bottom, left top, from(#fb0000), to(#8703ee));
+  background-image: linear-gradient(0deg, #fb0000, #8703ee);
+}
+.project-title {
+  font-size: 123px;
+  line-height: 1;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: white;
+}
+@media screen and (max-width: 1300px) {
+  .project-container {
+    flex-direction: column;
+  }
+}

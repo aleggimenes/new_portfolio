@@ -1,0 +1,80 @@
+.section-aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 220px;
+}
+.aboutme-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.aboutme-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.aboutme-info-p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.8em;
+  letter-spacing: 0.7px;
+}
+.aboutme-img-box {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 540px;
+  background-image: url("../../../public/img/foto_perfil.png");
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.outdoor-text {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  gap: 32px;
+  flex-direction: row;
+  z-index: 999;
+}
+
+.text {
+  display: inline-block;
+  font-size: 123px;
+  padding-right: 100%;
+  animation: marquee 38.5s linear infinite;
+  line-height: 147.3px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutme-container {
+    flex-direction: column;
+  }
+  .aboutme-img-box {
+    background-size: cover;
+  }
+  .aboutme-info-box {
+    width: 100%;
+    text-align: center;
+  }
+}

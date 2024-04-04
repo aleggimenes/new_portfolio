@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+/* Global CSS  */
+
+body {
+  margin: 0;
+  font-family: "Overpass Variable", sans-serif;
+  -webkit-font-smoothing: "Overpass Variable", sans-serif;
+  -moz-osx-font-smoothing: "Overpass Variable", sans-serif;
+  font-style: normal;
+  background: var(--background);
+  color: var(--white);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 1.1em;
+  font-family: "Overpass Variable", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --background: #1A1A1A;
+  --black: #000;
+  --white: #ffffff;
+  --red: #ec3333;
+  --orange: #ff8a00;
+  --dark_navbar: #160e33;
 }

@@ -1,0 +1,39 @@
+.skills-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 220px;
+}
+.c {
+  width: 80%;
+  height: 440px;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.front,
+.back {
+  background-size: contain;
+  background-color: #212121;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.front {
+  width: 70%;
+  height: 440px;
+  position: absolute;
+  background-color: #d3d1d1;
+  color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
