@@ -1,22 +1,31 @@
 .hero-section-laptop-container {
   position: relative;
   display: flex;
-  height: 260vh;
+  height: 290vh;
   align-items: flex-start;
   flex-direction: column;
   margin-bottom: 220px;
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
+  background-image: url(https://awv3node-homepage.surge.sh/build/assets/stars.svg);
+  background-size: cover;
+  background-color: rgb(36, 59, 74);
 }
-
-/* Estilize a imagem de background */
+.hero-top-fade-top {
+  position: relative;
+  height: 100px;
+  top: 50px;
+  width: 100%;
+  background-color: rgb(36, 59, 74);
+  filter: blur(9px);
+  z-index: 999;
+}
 .hero-section-laptop-container img:nth-child(1) {
   position: sticky;
   top: 0;
-  z-index: 1;
-  margin-left: auto; /* Empurra o elemento para a direita */
+  z-index: 9;
+  margin-left: auto; 
 }
-
 .contain-info {
   display: flex;
   flex-direction: column;
@@ -40,9 +49,8 @@
   align-items: center;
   justify-content: center;
   background-image: (linear, left bottom, left top, from(#fb0000), to(#8703ee));
-  background-image: linear-gradient(0deg, #fb0000, #8703ee);
   border-radius: 15px;
-  width: 70%;
+  width: 90%;
   text-align: center;
 }
 
