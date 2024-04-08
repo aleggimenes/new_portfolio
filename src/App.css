@@ -20,7 +20,10 @@ p {
   line-height: 1.1em;
   font-family: "Overpass Variable", sans-serif;
 }
-
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
 :root {
   --background: #1A1A1A;
   --black: #000;

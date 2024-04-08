@@ -1,13 +1,23 @@
 .navbar {
-  display: grid; /* Alterado para grid para permitir especificar as colunas */
-  grid-template-columns: auto 1fr; /* Primeira coluna do tamanho automático para o .navbar--container--img, segunda coluna ocupando o restante do espaço */
+  display: flex; /* Alterado para grid para permitir especificar as colunas */
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
+  width: 100%;
   margin-bottom: 120px;
+  padding: 15px 85.333px;
+  background-color: #1a1a1a;
+  position: fixed;
+  z-index: 999;
+  padding-top: 25px;
 }
-
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  margin-left: 150px;
+  align-items: center;
+}
 .navbar--items > ul {
   list-style: none;
   display: flex;
@@ -19,10 +29,15 @@
 .navbar--container--img {
   display: flex;
   align-items: flex-start; /* Alinha o container da imagem à margem inicial */
+  cursor: pointer;
 }
 .navbar--img {
   margin-right: 30px;
-  font-size: 22px;
+  font-size: 28px;
+  transition: color 350ms ease;
+}
+.navbar--img:hover {
+  color: #ffd660;
 }
 .navbar--items ul > li > a {
   text-decoration: none;
@@ -48,7 +63,6 @@
   height: 1.313rem;
   flex-direction: column;
   justify-content: space-around;
-  position: absolute;
   top: 25px;
   right: 25px;
 }
@@ -65,7 +79,7 @@
 @media screen and (max-width: 1200px) {
   .nav__hamburger {
     display: flex;
-    z-index: 200;
+    z-index: 999;
   }
   .navbar--items {
     display: flex;
@@ -75,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background);
+    background-color: #1a1a1a;
     top: -40rem;
     left: 0;
     width: 100%;
@@ -86,7 +100,7 @@
     align-items: center;
     width: 100%;
     padding: 3rem 0 0.6rem;
-    z-index: -100;
+    z-index: 900;
   }
   .navbar--items ul li {
     text-align: center;

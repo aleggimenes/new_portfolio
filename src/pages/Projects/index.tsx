@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function Project() {
     return (
-        <section className='project-section'>
+        <section className='project-section' id="projectSection">
             <div className='project-header-content' >
                 <p className='project-title'>
                     Projects

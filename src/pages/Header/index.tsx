@@ -3,7 +3,7 @@ import './style.css'
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 export default function Header() {
     return (
-        <section className='header-section'>
+        <section id="headerSection" className='header-section'>
             <div className='header-container'>
                 <FaAngleLeft style={{ width: '80px', height: '80px' }} />
 

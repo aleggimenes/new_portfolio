@@ -14,7 +14,7 @@ export default function CanHelp() {
   };
 
   return (
-    <section className="help-section">
+    <section className="help-section" id="canhelpSection">
       <div className="section-top-fade-top" />
       <div className="help-container">
         <h1 className="help-container-h1">I can help you with ...</h1>
@@ -29,11 +29,13 @@ export default function CanHelp() {
             <h1 className="help-first-dev-container-number">01.</h1>
             <div className="help-first-dev-container-line" />
             <h1 className="help-first-dev-container-title">{"Development"}</h1>
-            <p className="help-first-dev-container-description">I've worked with individuals and teams to create experiences for SMEs and large corporations such as Wise, Google, Interswitch, and Intelia.</p>
+            <p className="help-first-dev-container-description">
+              My last job involved being part of various projects, including e-commerce and initiatives aimed at streamlining specific business processes, across different development teams.
+            </p>
           </div>
           <img src="./img/development.svg" className="help-first-dev-container-img" alt="Development" />
         </motion.div>
-        
+
         <motion.div
           className="help-first-dev"
           variants={containerVariants}
@@ -45,11 +47,11 @@ export default function CanHelp() {
           <div className="help-first-dev-container">
             <h1 className="help-first-dev-container-number">02.</h1>
             <div className="help-first-dev-container-line" style={{ backgroundColor: '#f92672' }} />
-            <h1 className="help-first-dev-container-title" style={{ color: '#f92672' }}>{"Development"}</h1>
+            <h1 className="help-first-dev-container-title" style={{ color: '#f92672' }}>{"App Development"}</h1>
             <p className="help-first-dev-container-description">I've worked with individuals and teams to create experiences for SMEs and large corporations such as Wise, Google, Interswitch, and Intelia.</p>
           </div>
         </motion.div>
-        
+
         <motion.div
           className="help-first-dev"
           variants={containerVariants}

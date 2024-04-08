@@ -19,7 +19,7 @@ export default function AboutMe() {
 
     return (
         <ParallaxProvider>
-            <section className="section-aboutme">
+            <section id="aboutmeSection" className="section-aboutme">
                 <div className="outdoor-text">
                     <p className="text">Passionate creative developer with skills</p>
                 </div>

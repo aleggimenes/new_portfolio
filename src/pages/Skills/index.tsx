@@ -9,7 +9,7 @@ export default function Skills() {
         config: { mass: 5, tension: 500, friction: 80 },
     })
     return (
-        <div className="skills-section">
+        <div className="skills-section"  id="skillsSection">
             <h1 style={{ fontSize: '35px', color: 'white', marginBottom: '40px' }}>Click to see more</h1>
             <div className='container' onClick={() => set(state => !state)}>
                 <a.div

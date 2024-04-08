@@ -1,7 +1,7 @@
 .hero-section-laptop-container {
   position: relative;
   display: flex;
-  height: 290vh;
+  height: 250vh;
   align-items: flex-start;
   flex-direction: column;
   margin-bottom: 220px;
@@ -9,16 +9,16 @@
   width: 100%;
   background-image: url(https://awv3node-homepage.surge.sh/build/assets/stars.svg);
   background-size: cover;
-  background-color: rgb(36, 59, 74);
+  background-color: rgb(17, 36, 48);
 }
 .hero-top-fade-top {
   position: relative;
   height: 100px;
   top: 50px;
   width: 100%;
-  background-color: rgb(36, 59, 74);
+  background-color: rgb(17, 36, 48);
   filter: blur(9px);
-  z-index: 999;
+  z-index: 99;
 }
 .hero-section-laptop-container img:nth-child(1) {
   position: sticky;
