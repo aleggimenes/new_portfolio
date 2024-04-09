@@ -92,4 +92,7 @@
   .help-first-dev-container-description {
     text-align: center;
   }
+  .help-first-dev-container-line {
+    width: 100%;
+  }
 }

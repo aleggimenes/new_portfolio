@@ -58,7 +58,7 @@ export default function CanHelp() {
           animate={inView2 ? "visible" : "hidden"}
           ref={ref2}
         >
-          {width <= 820 ?
+          {width <= 880 ?
             <>
               <div className="help-first-dev-container">
                 <h1 className="help-first-dev-container-number">02.</h1>
