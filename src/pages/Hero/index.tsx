@@ -70,7 +70,7 @@ export default function Hero() {
                     </Parallax>
                     <Parallax style={{ position: 'absolute', top: '1000px', width: '100%' }}
                         translateY={[10, 190]}>
-                        <img src="https://awv3node-homepage.surge.sh/build/assets/cloud.svg" alt="" style={{ width: '8%', paddingTop: '20px', zIndex: 2, marginLeft: 420 }} />
+                        <img src="https://awv3node-homepage.surge.sh/build/assets/cloud.svg" alt="" style={{ width: '8%', paddingTop: '20px', zIndex: 2, marginLeft: '12em' }} />
                     </Parallax>
                     <Parallax style={{ position: 'absolute', top: '1800px', width: '100%', display: 'flex', alignItems: 'center' }}
                         translateY={[10, 190]}>

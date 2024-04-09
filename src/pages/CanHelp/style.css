@@ -43,7 +43,6 @@
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 140px;
-
 }
 .help-first-dev-container {
   display: flex;
@@ -79,12 +78,18 @@
   font-weight: 400;
 }
 .help-first-dev-container-img {
- max-width: 100%;
+  max-width: 100%;
   display: inline-block;
   height: 100%;
 }
-@media screen and (max-width: 1300px) {
-  .project-container {
+@media screen and (max-width: 880px) {
+  .help-first-dev {
     flex-direction: column;
+  }
+  .help-first-dev-container {
+    margin-bottom: 2em;
+  }
+  .help-first-dev-container-description {
+    text-align: center;
   }
 }

@@ -24,7 +24,7 @@
   position: sticky;
   top: 0;
   z-index: 9;
-  margin-left: auto; 
+  margin-left: auto;
 }
 .contain-info {
   display: flex;
@@ -66,4 +66,17 @@
 
 .rocket:active {
   cursor: -webkit-grabbing;
+}
+
+@media screen and (max-width: 880px) {
+  .contain-info-title {
+    font-size: 4.5em;
+    margin-bottom: 0.8em;
+  }
+  .contain-info-subtitle {
+    font-size: 3.5em;
+  }
+  .contain-info-text {
+    font-size: 2.1em;
+  }
 }

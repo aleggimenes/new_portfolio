@@ -60,12 +60,59 @@
   flex-direction: row;
   gap: 40px;
 }
+
 .footer-icon {
   width: 30px;
   height: 30px;
   cursor: pointer;
   transition: color 350ms ease;
+  color: inherit; /* Isso vai herdar a cor do pai (neste caso, do link) */
 }
+
 .footer-icon:hover {
   color: #ffd660;
+}
+
+.footer-icon-href {
+  color: inherit; /* Isso vai herdar a cor do pai (neste caso, do link) */
+  text-decoration: none; /* Removendo o sublinhado do link */
+}
+@media screen and (max-width: 1280px) {
+  .footer-link-contact {
+    font-size: 1.8em;
+  }
+  .footer-items-link {
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 0.6em;
+  }
+  .footer-link {
+    font-size: 1.1em;
+  }
+  .footer-items {
+    gap: 2.8em;
+  }
+  .line {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .footer-link-contact {
+    font-size: 1.8em;
+  }
+  .footer-items-link {
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.6em;
+  }
+  .footer-link {
+    font-size: 1.3em;
+  }
+  .footer-items {
+    gap: 0.8em;
+  }
+  .line {
+    width: 100%;
+  }
 }

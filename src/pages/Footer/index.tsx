@@ -71,10 +71,13 @@ export default function Footer() {
             </div>
             <div className='line' />
             <div className='footer-icon-container'>
-                <a className='footer-icon-href' href="https://www.linkedin.com/in/alessandro-gabriel/">
+                <a className='footer-icon-href' target="_blank" href="https://github.com/aleggimenes">
                     <FaGithub className='footer-icon' />
                 </a>
-                <FaLinkedinIn className='footer-icon' />
+                <a className='footer-icon-href' target="_blank" href="https://www.linkedin.com/in/alessandro-gabriel/">
+                    <FaLinkedinIn className='footer-icon' />
+
+                </a>
             </div>
         </section>
     )

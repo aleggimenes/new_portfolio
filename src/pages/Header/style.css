@@ -49,3 +49,23 @@
   line-height: 1.5;
   font-weight: 300;
 }
+
+@media screen and (max-width: 880px) {
+  .header-section {
+    width: 90%;
+  }
+  .subtitle-header {
+    font-size: 18px;
+
+   }
+
+  .header-title {
+    font-size: 43px;
+  }
+  .header-line {
+    display: none;
+  }
+  .header-container {
+    width: 60%;
+  }
+}

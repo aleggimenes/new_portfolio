@@ -53,8 +53,9 @@
   display: inline-block;
   font-size: 123px;
   padding-right: 100%;
-  animation: marquee 38.5s linear infinite;
+  animation: marquee 20s linear infinite; /* Reduzindo a duração total da animação */
   line-height: 147.3px;
+  animation-delay: 0s; /* Removendo o atraso inicial */
 }
 
 @keyframes marquee {
@@ -65,7 +66,6 @@
     transform: translate(-100%, 0);
   }
 }
-
 @media screen and (max-width: 1200px) {
   .aboutme-container {
     flex-direction: column;

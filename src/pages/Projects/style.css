@@ -59,7 +59,11 @@
   padding-right: 20px;
   padding-bottom: 20px;
 }
-
+.project-link {
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+}
 .project-line-container {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -84,5 +88,16 @@
 @media screen and (max-width: 1300px) {
   .project-container {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 880px) {
+  .project-title{
+    font-size: 2.9em;
+  }
+  .project-items-h1 {
+    font-size: 1.4em;
+  }
+  .project-content {
+    width: 100%;
   }
 }
