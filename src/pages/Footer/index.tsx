@@ -71,13 +71,17 @@ export default function Footer() {
             </div>
             <div className='line' />
             <div className='footer-icon-container'>
-                <a className='footer-icon-href' target="_blank" href="https://github.com/aleggimenes">
-                    <FaGithub className='footer-icon' />
-                </a>
-                <a className='footer-icon-href' target="_blank" href="https://www.linkedin.com/in/alessandro-gabriel/">
-                    <FaLinkedinIn className='footer-icon' />
+                <p style={{display:'flex', justifyContent:'flex-start'}}>Made with ❤️ by: Me</p>
+                <div style={{display:'flex', justifyContent:'flex-end', gap:22}}>
+                    <a className='footer-icon-href' target="_blank" href="https://github.com/aleggimenes">
+                        <FaGithub className='footer-icon' />
+                    </a>
+                    <a className='footer-icon-href' target="_blank" href="https://www.linkedin.com/in/alessandro-gabriel/">
+                        <FaLinkedinIn className='footer-icon' />
 
-                </a>
+                    </a>
+                </div>
+
             </div>
         </section>
     )

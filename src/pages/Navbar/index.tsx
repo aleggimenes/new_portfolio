@@ -44,7 +44,7 @@ export default function Navbar() {
                     className="navbar--container--img"
                 >
                     <p className="navbar--img">
-                        {"{/} Gabriel.dev"}
+                        {"{/} Alessandro.dev"}
                     </p>
                 </Link>
                 <a
